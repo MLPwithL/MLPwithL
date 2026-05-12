@@ -15,62 +15,110 @@
 
 ---
 
-# ⚜️ About Me
+## 🚀 About Me
 
-```html
----
+I am currently focusing on:
 
-# ⚜️ About Me
+- 📊 Quantitative Finance
+- 🤖 Machine Learning
+- 📈 Fund Evaluation & Factor Modeling
+- 🧠 Data-Driven Investment Research
+- 🔬 Financial Engineering
 
-<div align="center">
-
-<table>
-<tr>
-<td width="900px" bgcolor="#000000">
-
-<br>
-
-<h3 align="center">
-  <font color="#D4AF37">Quantitative Finance • Machine Learning • Financial Engineering</font>
-</h3>
-
-<p align="center">
-  I am focused on building quantitative research systems that combine mathematics, financial data, and machine learning.
-</p>
-
-<br>
-
-<p align="center">
-  <b>Background</b><br>
-  Mathematics
-</p>
-
-<p align="center">
-  <b>Research Direction</b><br>
-  Quantitative Finance · Machine Learning · Financial Engineering · Factor Investing
-</p>
-
-<p align="center">
-  <b>Tech Stack</b><br>
-  Python · Pandas · NumPy · TensorFlow · Scikit-learn · XGBoost
-</p>
-
-<p align="center">
-  <b>Current Focus</b><br>
-  Fund Evaluation Models · Portfolio Optimization · Alpha Factor Research · AI for Finance
-</p>
-
-<p align="center">
-  <i>Mathematics + Data + Algorithms = Future Finance</i>
-</p>
-
-<br>
-
-</td>
-</tr>
-</table>
-
-</div>
+I enjoy combining mathematics, programming, and financial analysis to build quantitative models and research systems.
 
 ---
 
+## 🛠 Tech Stack
+
+### Programming & Data Analysis
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+### Machine Learning
+- TensorFlow
+- Scikit-learn
+- XGBoost
+
+### Quant & Finance
+- Factor Models
+- Portfolio Analysis
+- Backtesting
+- Fund NAV Analysis
+- Data Cleaning & Financial Data Processing
+
+---
+
+## 📚 Current Learning Focus
+
+- Multi-factor Quantitative Models
+- Machine Learning in Asset Pricing
+- Deep Learning for Financial Time Series
+- Fund Performance Attribution
+- Reinforcement Learning in Trading
+
+---
+
+## 📌 Featured Projects
+
+### 📈 Fund Evaluation System
+A quantitative research project replicating broker-dealer fund evaluation frameworks using:
+
+- Fund NAV data
+- Fund holdings
+- Industry indices
+- Regularized regression models
+
+Outputs include:
+- Stock selection ability ranking
+- Timing ability ranking
+- Portfolio backtesting
+- Automated markdown research reports
+
+---
+
+### 🤖 ML Research Projects
+Exploring:
+- Predictive modeling
+- Time-series forecasting
+- Feature engineering
+- Financial NLP
+
+---
+
+## 📫 Contact Me
+
+- 📱 Hong Kong: +852 4631 9800
+- 📱 Mainland China: +86 15329698785
+- 📧 Email: lyby20050131@outlook.com
+
+---
+
+## 🌱 Goals
+
+- Build institutional-level quant research systems
+- Contribute to open-source quant projects
+- Pursue opportunities in hedge funds & quantitative research
+- Combine AI with financial engineering
+
+---
+
+## ⚡ Fun Fact
+
+I believe the future of finance belongs to people who can understand both:
+> mathematics **and** machines.
+
+---
+
+# 📊 GitHub Stats
+
+<!-- You can enable these after creating your GitHub account setup -->
+
+<!--
+![Isaac's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+-->
