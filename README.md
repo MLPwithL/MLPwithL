@@ -9,7 +9,6 @@
 <br>
 
 <img src="https://img.shields.io/badge/Focus-Quantitative%20Finance-black?style=for-the-badge&logo=bitcoin&logoColor=D4AF37"/>
-<img src="https://img.shields.io/badge/Focus-Machine%20Learning-black?style=for-the-badge&logo=tensorflow&logoColor=D4AF37"/>
 <img src="https://img.shields.io/badge/Focus-Financial%20Engineering-black?style=for-the-badge&logo=python&logoColor=D4AF37"/>
 
 </div>
@@ -60,3 +59,4 @@ class IsaacLi:
         return "Mathematics + Data + Algorithms = Future Finance"
 ```
 
+---
