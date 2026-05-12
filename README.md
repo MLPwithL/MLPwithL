@@ -17,46 +17,60 @@
 
 # ⚜️ About Me
 
-```python
-class IsaacLi:
+```html
+---
 
-    def __init__(self):
+# ⚜️ About Me
 
-        self.background = "Mathematics"
+<div align="center">
 
-        self.fields = [
-            "Quantitative Finance",
-            "Machine Learning",
-            "Financial Engineering",
-            "Factor Investing"
-        ]
+<table>
+<tr>
+<td width="900px" bgcolor="#000000">
 
-        self.languages = [
-            "Python",
-            "SQL"
-        ]
+<br>
 
-        self.ml_stack = [
-            "TensorFlow",
-            "Scikit-learn",
-            "XGBoost"
-        ]
+<h3 align="center">
+  <font color="#D4AF37">Quantitative Finance • Machine Learning • Financial Engineering</font>
+</h3>
 
-        self.data_stack = [
-            "Pandas",
-            "NumPy",
-            "Matplotlib"
-        ]
+<p align="center">
+  I am focused on building quantitative research systems that combine mathematics, financial data, and machine learning.
+</p>
 
-        self.current_focus = [
-            "Fund Evaluation Models",
-            "Portfolio Optimization",
-            "Alpha Factor Research",
-            "AI for Finance"
-        ]
+<br>
 
-    def philosophy(self):
-        return "Mathematics + Data + Algorithms = Future Finance"
-```
+<p align="center">
+  <b>Background</b><br>
+  Mathematics
+</p>
+
+<p align="center">
+  <b>Research Direction</b><br>
+  Quantitative Finance · Machine Learning · Financial Engineering · Factor Investing
+</p>
+
+<p align="center">
+  <b>Tech Stack</b><br>
+  Python · Pandas · NumPy · TensorFlow · Scikit-learn · XGBoost
+</p>
+
+<p align="center">
+  <b>Current Focus</b><br>
+  Fund Evaluation Models · Portfolio Optimization · Alpha Factor Research · AI for Finance
+</p>
+
+<p align="center">
+  <i>Mathematics + Data + Algorithms = Future Finance</i>
+</p>
+
+<br>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
+
