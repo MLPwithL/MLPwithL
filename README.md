@@ -112,13 +112,3 @@ I believe the future of finance belongs to people who can understand both:
 > mathematics **and** machines.
 
 ---
-
-# 📊 GitHub Stats
-
-<!-- You can enable these after creating your GitHub account setup -->
-
-<!--
-![Isaac's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
--->
