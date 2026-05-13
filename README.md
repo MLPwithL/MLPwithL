@@ -1,21 +1,21 @@
 <div align="center">
 
-# 𝐈𝐬𝐚𝐚𝐜 𝐋𝐢
+# <span style="color:#D4AF37;">𝐈𝐬𝐚𝐚𝐜 𝐋𝐢</span>
 
-### Quantitative Finance • Machine Learning • Financial Engineering
+### <span style="color:#E0E0E0;">Quantitative Finance • Machine Learning • Financial Engineering</span>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&size=26&duration=3000&color=D4AF37&center=true&vCenter=true&width=800&lines=Quantitative+Researcher;Machine+Learning+Engineer;AI+%2B+Finance;Mathematics+Driven+Investor" />
 
 <br>
 
-<img src="https://img.shields.io/badge/Focus-Quantitative%20Finance-black?style=for-the-badge&logo=bitcoin&logoColor=D4AF37"/>
-<img src="https://img.shields.io/badge/Focus-Financial%20Engineering-black?style=for-the-badge&logo=python&logoColor=D4AF37"/>
+<img src="https://img.shields.io/badge/Focus-Quantitative%20Finance-black?style=for-the-badge&logo=bitcoin&logoColor=D4AF37&color=black&labelColor=black"/>
+<img src="https://img.shields.io/badge/Focus-Financial%20Engineering-black?style=for-the-badge&logo=python&logoColor=D4AF37&color=black&labelColor=black"/>
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🚀 <span style="color:#D4AF37;">About Me</span>
 
 I am currently focusing on:
 
@@ -29,7 +29,7 @@ I enjoy combining mathematics, programming, and financial analysis to build quan
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 <span style="color:#D4AF37;">Tech Stack</span>
 
 ### Programming & Data Analysis
 - Python
@@ -52,7 +52,7 @@ I enjoy combining mathematics, programming, and financial analysis to build quan
 
 ---
 
-## 📚 Current Learning Focus
+## 📚 <span style="color:#D4AF37;">Current Learning Focus</span>
 
 - Multi-factor Quantitative Models
 - Machine Learning in Asset Pricing
@@ -62,7 +62,7 @@ I enjoy combining mathematics, programming, and financial analysis to build quan
 
 ---
 
-## 📌 Featured Projects
+## 📌 <span style="color:#D4AF37;">Featured Projects</span>
 
 ### 📈 Fund Evaluation System
 A quantitative research project replicating broker-dealer fund evaluation frameworks using:
@@ -89,7 +89,7 @@ Exploring:
 
 ---
 
-## 📫 Contact Me
+## 📫 <span style="color:#D4AF37;">Contact Me</span>
 
 - 📱 Hong Kong: +852 4631 9800
 - 📱 Mainland China: +86 15329698785
@@ -97,12 +97,20 @@ Exploring:
 
 ---
 
-## 🌱 Goals
+## 🌱 <span style="color:#D4AF37;">Goals</span>
 
 - Build institutional-level quant research systems
 - Contribute to open-source quant projects
 - Pursue opportunities in hedge funds & quantitative research
 - Combine AI with financial engineering
+
+---
+
+<div align="center">
+    <span style="color:#D4AF37;">✦  Quantitative | Precision | Alpha  ✦</span>
+    <br><br>
+    <img src="https://img.shields.io/badge/Black--Gold%20Portfolio-Dark%20Luxury-black?style=for-the-badge&logo=github&logoColor=D4AF37&color=black&labelColor=black" />
+</div>
 
 ---
 
