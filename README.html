@@ -18,14 +18,13 @@
             padding: 2rem 1rem;
         }
 
-        /* 主容器 - 黑金奢华卡片 */
         .black-gold-card {
             max-width: 1100px;
             margin: 0 auto;
             background: #0a0a0a;
-            border: 1px solid rgba(212, 175, 55, 0.3);
+            border: 1px solid #D4AF37;
             border-radius: 28px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(212,175,55,0.1);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(212,175,55,0.2);
             overflow: hidden;
         }
 
@@ -39,13 +38,13 @@
             }
         }
 
-        /* 所有基础文字颜色 */
-        body, .content, p, li, span, div:not(.special) {
+        /* 基础文字颜色 */
+        body, .content, p, li, span, div {
             color: #e0e0e0;
         }
 
         /* 标题全部黑金风格 */
-        h1, h2, h3, .gold-text, .section-title, .project-title {
+        h1, h2, h3, .gold-text {
             color: #D4AF37 !important;
             font-weight: 600;
             letter-spacing: 0.02em;
@@ -54,7 +53,7 @@
         h1 {
             font-size: 3rem;
             margin-bottom: 0.5rem;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Playfair Display', Georgia, serif;
             text-shadow: 0 0 5px rgba(212,175,55,0.3);
         }
 
@@ -80,7 +79,6 @@
             margin-bottom: 1rem;
         }
 
-        /* 分隔线金边 */
         hr {
             margin: 1.8rem 0;
             border: none;
@@ -88,17 +86,15 @@
             background: linear-gradient(90deg, #D4AF37, #4a3a0a, #D4AF37);
         }
 
-        /* 列表样式 */
-        ul, .custom-list {
-            margin: 0.8rem 0 1rem 1.5rem;
+        ul {
+            margin: 0.8rem 0 1rem 1.8rem;
         }
 
         li {
-            margin: 0.4rem 0;
+            margin: 0.5rem 0;
             color: #dddddd;
         }
 
-        /* 徽章容器 */
         .badge-row {
             display: flex;
             flex-wrap: wrap;
@@ -111,32 +107,29 @@
             background: #0a0a0a;
             border: 1px solid #D4AF37;
             color: #D4AF37;
-            padding: 6px 14px;
+            padding: 6px 16px;
             border-radius: 40px;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             font-weight: 500;
             display: inline-flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
         }
 
         .badge i {
             color: #D4AF37;
         }
 
-        /* 打字机 SVG 保持可见，外层控制 */
-        .typing-area {
-            margin: 15px 0;
-        }
-
-        /* 联系方式和footer金色强调 */
         .contact-line {
-            margin: 8px 0;
+            margin: 10px 0;
+            font-size: 1rem;
         }
 
         .gold-icon {
             color: #D4AF37;
-            margin-right: 8px;
+            margin-right: 10px;
+            width: 24px;
+            display: inline-block;
         }
 
         .footer-gold {
@@ -144,7 +137,7 @@
             margin-top: 2rem;
             padding-top: 1.5rem;
             border-top: 1px solid rgba(212,175,55,0.3);
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
 
         a {
@@ -157,23 +150,35 @@
             color: #ffdf7e;
         }
 
-        /* 模拟代码块或高亮 */
         .highlight-gold {
             color: #D4AF37;
             font-weight: 500;
         }
 
         .project-block {
-            background: #111111;
+            background: #0d0d0d;
             border-left: 3px solid #D4AF37;
             padding: 1rem 1.2rem;
-            margin: 1rem 0;
+            margin: 1.2rem 0;
             border-radius: 12px;
         }
 
-        /* 调整图片/徽章原始颜色 */
-        img {
-            max-width: 100%;
+        .typing-placeholder {
+            background: transparent;
+            font-family: 'Playfair Display', monospace;
+            font-size: 1.3rem;
+            color: #D4AF37;
+            text-align: center;
+            margin: 15px 0;
+            min-height: 60px;
+        }
+
+        /* 打字机效果动画 */
+        .typing-demo {
+            font-size: 1.4rem;
+            font-family: 'Playfair Display', monospace;
+            color: #D4AF37;
+            text-align: center;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -183,14 +188,11 @@
 <div class="black-gold-card">
     <div class="content">
         
-        <!-- 头部区域 完全黑金 -->
         <div align="center">
             <h1>𝐈𝐬𝐚𝐚𝐜 𝐋𝐢</h1>
             <div class="subhead">Quantitative Finance • Machine Learning • Financial Engineering</div>
             
-            <div class="typing-area">
-                <img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&size=26&duration=3000&color=D4AF37&center=true&vCenter=true&width=800&lines=Quantitative+Researcher;Machine+Learning+Engineer;AI+%2B+Finance;Mathematics+Driven+Investor" alt="typing svg" />
-            </div>
+            <div class="typing-placeholder" id="typing-text"></div>
             
             <div class="badge-row">
                 <span class="badge"><i class="fab fa-bitcoin"></i> Focus: Quantitative Finance</span>
@@ -200,13 +202,12 @@
 
         <hr>
 
-        <!-- About Me -->
         <h2><i class="fas fa-user-astronaut gold-icon"></i> About Me</h2>
         <p>I am currently focusing on:</p>
         <ul>
             <li>📊 Quantitative Finance</li>
             <li>🤖 Machine Learning</li>
-            <li>📈 Fund Evaluation & Factor Modeling</li>
+            <li>📈 Fund Evaluation &amp; Factor Modeling</li>
             <li>🧠 Data-Driven Investment Research</li>
             <li>🔬 Financial Engineering</li>
         </ul>
@@ -214,27 +215,19 @@
 
         <hr>
 
-        <!-- Tech Stack -->
         <h2><i class="fas fa-code gold-icon"></i> Tech Stack</h2>
         
-        <h3>Programming & Data Analysis</h3>
-        <ul>
-            <li>Python · Pandas · NumPy · Matplotlib · Jupyter Notebook</li>
-        </ul>
+        <h3>Programming &amp; Data Analysis</h3>
+        <ul><li>Python · Pandas · NumPy · Matplotlib · Jupyter Notebook</li></ul>
         
         <h3>Machine Learning</h3>
-        <ul>
-            <li>TensorFlow · Scikit-learn · XGBoost</li>
-        </ul>
+        <ul><li>TensorFlow · Scikit-learn · XGBoost</li></ul>
         
-        <h3>Quant & Finance</h3>
-        <ul>
-            <li>Factor Models · Portfolio Analysis · Backtesting · Fund NAV Analysis · Financial Data Processing</li>
-        </ul>
+        <h3>Quant &amp; Finance</h3>
+        <ul><li>Factor Models · Portfolio Analysis · Backtesting · Fund NAV Analysis · Financial Data Processing</li></ul>
 
         <hr>
 
-        <!-- Current Learning -->
         <h2><i class="fas fa-graduation-cap gold-icon"></i> Current Learning Focus</h2>
         <ul>
             <li>Multi-factor Quantitative Models</li>
@@ -246,15 +239,12 @@
 
         <hr>
 
-        <!-- Featured Projects -->
         <h2><i class="fas fa-chart-line gold-icon"></i> Featured Projects</h2>
         
         <div class="project-block">
             <h3>📈 Fund Evaluation System</h3>
             <p>A quantitative research project replicating broker-dealer fund evaluation frameworks using:</p>
-            <ul>
-                <li>Fund NAV data · Fund holdings · Industry indices · Regularized regression models</li>
-            </ul>
+            <ul><li>Fund NAV data · Fund holdings · Industry indices · Regularized regression models</li></ul>
             <p><span class="highlight-gold">Outputs include:</span> Stock selection ability ranking · Timing ability ranking · Portfolio backtesting · Automated markdown research reports</p>
         </div>
         
@@ -265,7 +255,6 @@
 
         <hr>
 
-        <!-- Contact -->
         <h2><i class="fas fa-address-card gold-icon"></i> Contact Me</h2>
         <div class="contact-line"><i class="fas fa-phone-alt gold-icon"></i> Hong Kong: +852 4631 9800</div>
         <div class="contact-line"><i class="fas fa-mobile-alt gold-icon"></i> Mainland China: +86 15329698785</div>
@@ -273,12 +262,11 @@
 
         <hr>
 
-        <!-- Goals -->
         <h2><i class="fas fa-chart-simple gold-icon"></i> Goals</h2>
         <ul>
             <li>Build institutional-level quant research systems</li>
             <li>Contribute to open-source quant projects</li>
-            <li>Pursue opportunities in hedge funds & quantitative research</li>
+            <li>Pursue opportunities in hedge funds &amp; quantitative research</li>
             <li>Combine AI with financial engineering</li>
         </ul>
 
@@ -289,8 +277,56 @@
             <span class="badge">📐 Quant Researcher · Alpha Seeker</span>
         </div>
         
-    </div> <!-- end content -->
-</div> <!-- end card -->
+    </div>
+</div>
+
+<script>
+    // 本地打字机效果，不依赖外部API
+    const phrases = [
+        "Quantitative Researcher",
+        "Machine Learning Engineer", 
+        "AI + Finance",
+        "Mathematics Driven Investor"
+    ];
+    
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingElement = document.getElementById("typing-text");
+    
+    function typeEffect() {
+        const currentPhrase = phrases[phraseIndex];
+        
+        if (isDeleting) {
+            typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+            charIndex++;
+        }
+        
+        if (!isDeleting && charIndex === currentPhrase.length) {
+            isDeleting = true;
+            setTimeout(typeEffect, 2000);
+            return;
+        }
+        
+        if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+            setTimeout(typeEffect, 500);
+            return;
+        }
+        
+        const speed = isDeleting ? 80 : 120;
+        setTimeout(typeEffect, speed);
+    }
+    
+    // 启动打字效果
+    if (typingElement) {
+        typeEffect();
+    }
+</script>
 
 </body>
 </html>
