@@ -39,11 +39,12 @@ I enjoy combining mathematics, programming, and financial analysis to build quan
 ## 🛠 Tech Stack
 
 ### Programming & Data Analysis
-- Python
+- Python （Jupyter Notebook）
 - Pandas
 - NumPy
 - Matplotlib
-- Jupyter Notebook
+- scikit-learn
+- TensorFlow
 
 ### Machine Learning
 - TensorFlow
