@@ -12,7 +12,6 @@
 <img src="https://img.shields.io/badge/Focus-Financial%20Engineering-black?style=for-the-badge&logo=python&logoColor=D4AF37"/>
 
 </div>
----
 
 ## 📫 Contact Me
 
