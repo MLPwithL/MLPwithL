@@ -22,7 +22,7 @@
 ## Projects
 
 - [End-to-End China Fund Evaluation Process](https://github.com/MLPwithL/End-to-End-China-Fund-Evaluation-Process)
-- [UTR-2.0]((https://github.com/MLPwithL/UTR-2.0))
+- [UTR-2.0](https://github.com/MLPwithL/UTR-2.0)
 - [Basic Multi-Factor Modeling Process](https://github.com/MLPwithL/Basic-Multi-Factor-Modeling-Process)
 - [Common Factors](https://github.com/MLPwithL/Common-Factors)
 - [Clustering Project](https://github.com/MLPwithL/Clustering-project)
