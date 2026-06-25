@@ -13,92 +13,25 @@
 
 </div>
 
-## 📫 Contact Me
-
-- 📱 Hong Kong: +852 4631 9800
-- 📱 Mainland China: +86 15329698785
-- 📧 Email: lyby20050131@outlook.com
+<p align="center">
+  Interested in fund evaluation, factor modeling, financial machine learning, and quantitative research automation.
+</p>
 
 ---
 
-## 🚀 About Me
+## Projects
 
-I am currently focusing on:
-
-- 📊 Quantitative Finance
-- 🤖 Machine Learning
-- 📈 Fund Evaluation & Factor Modeling
-- 🧠 Data-Driven Investment Research
-- 🔬 Financial Engineering
-
-I enjoy combining mathematics, programming, and financial analysis to build quantitative models and research systems.
+- [End-to-End China Fund Evaluation Process](https://github.com/MLPwith/End-to-End-China-Fund-Evaluation-Process)
+- [UTR-2.0](https://github.com/MLPwith/UTR-2.0)
+- [Basic Multi-Factor Modeling Process](https://github.com/MLPwith/Basic-Multi-Factor-Modeling-Process)
+- [Common Factors](https://github.com/MLPwith/Common-Factors)
+- [MLPwith ATR 2.0](https://github.com/MLPwith/MLPwith_ATR_2.0)
+- [Clustering Project](https://github.com/MLPwith/Clustering-project)
 
 ---
 
-## 🛠 Tech Stack
-
-### Programming & Data Analysis
-- Python （Jupyter Notebook）
-- Pandas
-- NumPy
-- Matplotlib
-- scikit-learn
-- TensorFlow
-
-### Machine Learning
-- TensorFlow
-- Scikit-learn
-- XGBoost
-
-### Quant & Finance
-- Factor Models
-- Portfolio Analysis
-- Backtesting
-- Fund NAV Analysis
-- Data Cleaning & Financial Data Processing
-
----
-
-## 📚 Current Learning Focus
-
-- Multi-factor Quantitative Models
-- Machine Learning in Asset Pricing
-- Deep Learning for Financial Time Series
-- Fund Performance Attribution
-- Reinforcement Learning in Trading
-
----
-
-## 📌 Featured Projects
-
-### 📈 Fund Evaluation System
-A quantitative research project replicating broker-dealer fund evaluation frameworks using:
-
-- Fund NAV data
-- Fund holdings
-- Industry indices
-- Regularized regression models
-
-Outputs include:
-- Stock selection ability ranking
-- Timing ability ranking
-- Portfolio backtesting
-- Automated markdown research reports
-
----
-
-### 🤖 ML Research Projects
-Exploring:
-- Predictive modeling
-- Time-series forecasting
-- Feature engineering
-- Financial NLP
-
----
-
-## 🌱 Goals
-
-- Build institutional-level quant research systems
-- Contribute to open-source quant projects
-- Pursue opportunities in hedge funds & quantitative research
-- Combine AI with financial engineering
+## Contact
+`(86) 15329698785`
+`(852) 46319800`
+`lyby20050131@outlook.com`
+`mlpwithl@gmail.com`
