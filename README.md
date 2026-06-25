@@ -25,7 +25,6 @@
 - [UTR-2.0](https://github.com/MLPwith/UTR-2.0)
 - [Basic Multi-Factor Modeling Process](https://github.com/MLPwith/Basic-Multi-Factor-Modeling-Process)
 - [Common Factors](https://github.com/MLPwith/Common-Factors)
-- [MLPwith ATR 2.0](https://github.com/MLPwith/MLPwith_ATR_2.0)
 - [Clustering Project](https://github.com/MLPwith/Clustering-project)
 
 ---
